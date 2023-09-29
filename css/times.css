@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    /*font-family: font stack required for body text */
+      font-family:  'Roboto',helvetica, sans-serif;
+      background-color: hsl(0, 100%, 100%);
+}
+
+
+h1, h2, h3, h4{
+    /*font-family: font stack required for headings */
+    font-family: 'Roboto', Georgia, serif;
+  
+}
+p{
+    text-align: justify;
+     
+}
+.container{
+    
+    max-width: 1500px;
+    margin: auto;
+    background-color: hsl(0, 100%, 100%);
+}
+
+.subnav{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: hsl(203, 32%, 84%);
+    
+}
+.subnav a{
+    
+    font-family: sans-serif,'Roboto',  serif;
+    margin-left: 0.7rem;
+    padding: 9px;
+}
+
+.subnav a:hover{
+    color: hsl(0,0%,1%);
+    
+}
+
+.mainnav{
+    
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:hsl(203, 32%, 84%);
+   
+   
+}
+
+.mainnav a{
+
+    font-family: sans-serif,'Roboto',  serif;
+  
+}
+
+
+.masthead{
+    background-color: hsl(234, 61%, 94%);
+    font-variant: small-caps;
+}
+.times-logo{
+    
+    display: block;
+    height: 200px;
+    padding-left: 250px;
+}
+.masthead h1{
+    
+    font-family: serif,'Roboto', sans-serif;
+    text-align:left;
+    background-color: hsl(243, 67%, 75%);
+    
+   
+}
+.container{
+    
+   line-height: 1.45; 
+}
+.content{
+      
+     padding: 1em;
+}
+.content .story{
+
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 1.3rem; 
+    font-family: sans-serif,'Roboto',  serif;
+}
+
+
+.story.lead-story{
+    
+    font-weight: 400;
+    line-height: 1.45;
+    
+}
+
+.story.lead-story:hover{
+    
+    color: hsl(243, 100%, 37%);
+    font-weight: bold;
+    
+}
+
+h1.story-title{
+    
+    font-family: serif,'Roboto', sans-serif;
+    font-size: 1.602em;
+    margin-top: 0;
+    line-height: 1.2; 
+    padding: 1rem 0.5rem 0rem 0.5rem;
+    
+}
+.story img{
+    
+    width:600px;
+    height:350px;
+    float: left;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.story p{
+    
+    margin-bottom: 1.3em;
+ 
+}
+.story blockquote{
+    
+     padding-left: 0.5rem;
+    font-weight: 600;
+    quotes: "\201E" "\201D";
+}
+.story blockquote::before{
+    content: open-quote;
+}
+.story blockquote::after{
+    content: close-quote;
+    
+}
+.story p.byline{
+   
+    
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    border-bottom: 1px dotted black;
+    width:25vw;
+    
+}
+p.byline span.author{
+    font-family: sans-serif,'Roboto',  serif;
+    
+}
+p.byline span.pub{
+    font-family: sans-serif,'Roboto',  serif;
+    
+}
+.foot{  
+ 
+}
+.foot p{
+    
+    font-size: 0.702em;
+    text-align: center;
+    font-family: sans-serif,'Roboto',  serif;
+   
+}
